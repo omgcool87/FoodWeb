@@ -9,25 +9,86 @@
 </head>
 <body>
     <header>
-        <div class="search_box">
-            <input type="text" placeholder="搜尋欄">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div class="head-1">
+            <div class="search_box">
+                <input type="text" placeholder="搜尋欄">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <ul>
+                <li class="HomeNav"><a href="#">首頁</a></li>
+                <li class="HomeNav"><a href="#">食譜</a></li>
+                <li class="HomeNav"><a href="#">食材指南</a></li>
+                <li class="HomeNav"><a href="#">關於我們</a></li>
+            </ul>
         </div>
-        <ul>
-            <li class="HomeNav">首頁</li>
-            <li class="HomeNav">食譜</li>
-            <li class="HomeNav">食材指南</li>
-            <li class="HomeNav">關於我們</li>
-        </ul>
     </header>
     <main>
         <div class="home_image">
             <ul class="slides">
-                <li class="slide">1</li>
-                <li class="slide">2</li>
-                <li class="slide">3</li>
+                <input type = "radio" id = "control-1" name = "control" checked>
+                <input type = "radio" id = "control-2" name = "control">
+                <input type = "radio" id = "control-3" name = "control">
+                
+                <li class="slide"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+
+                <div class="control-visible">
+                    <label for="control-1"></label>
+                    <label for="control-2"></label>
+                    <label for="control-3"></label>
+                </div>
             </ul>
+            <button class="btn">立即下滑</button>
         </div>
     </main>
+    <section class="section-2">
+        <h1>最新上架</h1>
+        <ul class="nav-ul">
+            <li class="latest-nav n1">麵類</li>
+            <li class="latest-nav n2">飯類</li>
+            <li class="latest-nav n3">前菜</li>
+            <li class="latest-nav n4">甜點</li>
+            <li class="latest-nav n5">飲料</li>
+        </ul>
+        <ul class="rice-ul">
+            <li class="latest-rice">
+                <div class="r-content r1">
+                    <button class="查看">查看</button>
+                </div>
+            </li>
+            <li class="latest-rice">
+                <div class="r-content r2">
+                    <button class="查看">查看</button>
+                </div>
+            </li>
+            <li class="latest-rice">
+                <div class="r-content r3">
+                    <button class="查看">查看</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="section-3">
+        <h1>精選菜單</h1>
+        <div class="rmd-menu-box">
+            <div class="rmd_menu">
+                <button class="prev">&#10094;</button>
+                <div class="rmd-ul-0">
+                    <ul class="rmd-ul">
+                        <li class="rmd">1</li>
+                        <li class="rmd">2</li>
+                        <li class="rmd">3</li>
+                        <li class="rmd">4</li>
+                        <li class="rmd">5</li>
+                    </ul>
+                </div>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="./js/index.js"></script>
 </body>
 </html>
