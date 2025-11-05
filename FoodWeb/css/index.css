@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+p , h1 , h5{
+    font-family: "Noto Sans Traditional Chinese" ,sans-serif;
+}
 
 html , body {
     padding: 0;
@@ -8,7 +13,7 @@ header {
     z-index: 3;
     width: 100%;
     height: auto;
-    margin-top:10px;
+    padding:10px 0px;
 }
 .head-1 {
     display: flex;
@@ -100,11 +105,11 @@ li.slide {
     justify-content: center;
     align-items: center;
     transition: transform 0.5s ease-in-out;
-    filter: brightness(80%);
+    filter: brightness(70%);
 }
 
 .slide:nth-of-type(1) {
-    background-image: url("../image/noodle.jpg");
+    background-image: url("../image/berrypie.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -256,6 +261,28 @@ input[type='radio'] {
     align-items: flex-end;
     
 }
+.r1 p {
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#464646;
+}
+.r2 p {
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#464646;
+}
+.r3 p {
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#464646;
+}
+
 .查看 {
     position: relative;
     bottom: -20px;
@@ -268,13 +295,33 @@ input[type='radio'] {
     box-shadow: 0px 5px 10px 0px rgb(151, 151, 151) ;
 }
 
+.latest-rice:nth-of-type(1) {
+    background-image: url("../image/japanese-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest-rice:nth-of-type(2) {
+    background-image: url("../image/japanese-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest-rice:nth-of-type(3) {
+    background-image: url("../image/japanese.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* --------------------------------------------------------------------------- */
 
 .section-3 {
     position: relative;
     width: 100%;
-    height: 60vh;
-    background-color: #252525;
+    height: 50vh;
+    background-color: #383838;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .section-3 h1 {
@@ -282,6 +329,8 @@ input[type='radio'] {
     top:50px;
     left:60px;
     color:#fff;
+    padding: 0;
+    margin: 0;
 }
 .rmd-menu-box {
     width: 100%;
@@ -324,7 +373,7 @@ input[type='radio'] {
     width: 15px;
     height:35vh;
     position: absolute;
-    background:linear-gradient(270deg,#252525, transparent);
+    background:linear-gradient(270deg,#383838, transparent);
     z-index: 4;
     right: 0;
 }
@@ -333,7 +382,7 @@ input[type='radio'] {
     width: 15px;
     height:35vh;
     position: absolute;
-    background:linear-gradient(90deg,#252525, transparent);
+    background:linear-gradient(90deg,#383838, transparent);
     z-index: 4;
     left: 0;
 }
@@ -341,7 +390,7 @@ input[type='radio'] {
 
 .rmd-ul {
     position: absolute;
-    left: 20%;
+    left: 17%;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -358,4 +407,130 @@ input[type='radio'] {
     height:250px;
     background-color: #D26900;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #818181;
 }
+
+.rmd:nth-child(1) {
+    background-image: url("../image/chicken_wings.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rmd:nth-child(2) {
+    background-image: url("../image/Meat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rmd:nth-child(3) {
+    background-image: url("../image/noodle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rmd:nth-child(4) {
+    background-image: url("../image/pancake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rmd:nth-child(5) {
+    background-image: url("../image/pasta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ------------------------------------------------------------------------ */
+
+footer {
+    background-color: #202020;
+    color: #fff;
+    font-family: "Noto Sans TC", sans-serif;
+    height: 100px;
+}
+
+.footer-container {
+    width: 90%;
+    height: 100px;;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-left h3 {
+    font-size: 1.3rem;
+    margin: 0 0 5px 0;
+    color: #6d6d6d;
+}
+
+.footer-left p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #6d6d6d;
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-middle li {
+    margin-bottom: 8px;
+}
+
+.footer-middle a {
+    text-decoration: none;
+    color: #6d6d6d;
+    transition: color 0.3s;
+}
+
+.footer-middle a:hover {
+    color: #e67e22; /* 可換成主題色 */
+}
+
+.footer-right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footer-right .social {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.footer-right .social a {
+    text-decoration: none;
+    color: #6d6d6d;
+    z-index: 3;
+}
+.footer-right .social a i {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(100%);
+    transition: (filter,color) 0.3s, transform 0.3s;
+    color: #6d6d6d;
+}
+.footer-right .social a:hover{
+    color: #D26900;
+}
+.footer-right .social a:hover i {
+    filter: none;
+    transform: scale(1.1);
+    color: #D26900;
+}
+
+.footer-right p {
+    font-size: 0.85rem;
+    color: #777;
+}
+
