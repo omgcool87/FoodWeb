@@ -7,6 +7,7 @@ p , h1 , h5{
 html , body {
     padding: 0;
     margin: 0;
+    
 }
 header {
     position: absolute;
@@ -191,9 +192,8 @@ input[type='radio'] {
 /* --------------------------------------------------------------------------- */
 
 .section-2 {
-    position: relative;
     width: 100%;
-    height: 80vh;
+    height: 45rem;
     margin: 0;
     padding: 0;
 }
@@ -249,8 +249,7 @@ input[type='radio'] {
     justify-content: center;
 }
 .r-content {
-    position: relative;
-    top: 200px;
+    margin-top: 200px;
     width: 200px;
     height: 100px;
     background-color: #fff;
@@ -258,26 +257,24 @@ input[type='radio'] {
     box-shadow: 0px 5px 10px 0px rgb(151, 151, 151) ;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
     
 }
 .r1 p {
-    position: absolute;
-    top: 20px;
+    margin-top: 20px;
     font-size: 20px;
     font-weight: 600;
     color:#464646;
 }
 .r2 p {
-    position: absolute;
-    top: 20px;
+    margin-top: 20px;
     font-size: 20px;
     font-weight: 600;
     color:#464646;
 }
 .r3 p {
-    position: absolute;
-    top: 20px;
+    margin-top: 20px;
     font-size: 20px;
     font-weight: 600;
     color:#464646;
@@ -316,25 +313,21 @@ input[type='radio'] {
 /* --------------------------------------------------------------------------- */
 
 .section-3 {
-    position: relative;
     width: 100%;
-    height: 50vh;
+    height: 26rem;
     background-color: #383838;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 .section-3 h1 {
-    position: inherit;
-    top:50px;
-    left:60px;
+    padding: 50px 0px 0px 60px;
     color:#fff;
-    padding: 0;
     margin: 0;
 }
 .rmd-menu-box {
     width: 100%;
-    height: 50vh;
+    height: 20rem;
     margin: 0;
     padding: 0;
     display: flex;
